@@ -102,7 +102,7 @@ In the process of finding a better model describing plasma transport in the SOL 
 A more detailed picture of SOL fluctuations can be obtained by analyzing time series of the plasma parameters. These time series are typically obtained by Langmuir probes, consisting of a conducting element which is inserted into the plasma and draws a measurable current \cite{langmuir1923positive,mott1926theory}. Another well-known method is Gas puff imaging (GPI), where a puff of neutral gas is injected into the plasma edge, so that excitation radiation can be measured \cite{zweben2017invited}. Examples for time series measured at the outboard mid-plane in the far SOL of TCV, Alcator C-Mod and KSTAR are shown in \Figref{Fig:time_series}. Here, $\widetilde{\Phi}$ stands for the time series $\Phi(t)$ normalized to have zero mean and unit standard deviation. In all three devices, the time series show strongly intermittent positive bursts, which suggests an explanation for the large relative fluctuation levels in the SOL. A stochastic model describing these fluctuations as a superposition of uncorrelated pulses was introduced in 2012 \cite{garcia2012stochastic}. This phenomenological model, known in the context of stochastic processes as the Filtered Poisson Process (FPP), remains to the day of writing this thesis the most accurate statistical description of SOL fluctuations, as all of its major assumptions and predictions agree with the statistical properties of experimental measurements \cite{garcia2013intermittent,garcia2013burst,garcia2015intermittent,kube2016fluctuation,garcia2017sol,kube2018intermittent,garcia2018intermittent,theodorsen2018universality}. A detailed discussion of the FPP model is provided in Chapter 3 of this thesis.
 \begin{figure}[t]
 	\centering
-	\includegraphics[width=10cm]{figures/compare_ts_alt.eps}
+	\includegraphics[width=10cm]{figures/compare_ts_alt-eps-converted-to}
 	\caption{Fluctuation time series measured from different tokamak experiments. The time is normalized by the characteristic duration time of the underlying bursts. The black line indicates the mean value of the signal. Image courtesy of A. Theodorsen \cite{theodorsen2018statistical}.}
 	\label{Fig:time_series}
 \end{figure}
@@ -149,7 +149,7 @@ Apart from stochastic modeling, conditional averaging can be applied in order to
 	\end{minipage}
 	\hfill
 	\begin{minipage}{.48\linewidth}
-		\includegraphics[width=\linewidth]{figures/compare_cav_wf.eps}
+		\includegraphics[width=\linewidth]{figures/compare_cav_wf-eps-converted-to}
 		\caption{Conditionally averaged waveform for time series measured in the edge of TCV, Alcator C-Mod and KSTAR. The broken line shows a two-sided exponential fit. Image courtesy of A. Theodorsen \cite{theodorsen2018statistical}.}
 		\label{Fig:theodorsen_CA}
 	\end{minipage}
@@ -248,7 +248,7 @@ First attempts of modeling plasma turbulence typically use two-dimensional slab 
 SOL \cite{pogutse1994resistive,beyer1996center,horton1996turbulent,berning2000bifurcations,garcia2003confinement,garcia2003bursting,garcia2006two,decristoforo2020intermittent}. These models have been further extended by including sheath dissipation due to losses along magnetic field lines and drift wave dynamics in the edge region \cite{benkadda1994interchange,sarazin1998intermittent,naulin1999dispersion,garcia2001two,ghendrih2003theoretical,sarazin2003theoretical,garcia2004computations,bisai2004simulation,garcia2005turbulence,bisai2005formation,garcia2006turbulence}. One example for a turbulence simulation in a 2D slab geometry of a model including sheath dissipation is presented in \Figref{Fig:decristoforo}. Plasma streaming from the core into the SOL is modeled as a density source term in the left hand side of the simulation domain. Small perturbations in the plasma density become unstable and result in coherent structures that propagate radially outwards due to the interchange mechanism. The transition from closed to open magnetic field lines is simulated by applying different closures for the parallel dynamics. These 2D turbulence simulations have contributed to the understanding of the stability of filaments in the SOL and were able to reproduce the characteristic PDFs of plasma fluctuations and their radial variations \cite{garcia2005turbulence,militello2012simulations}. Further investigations on the statistical properties in turbulence simulations can be performed by analyzing time series \cite{,naulin2003electromagnetic,naulin2004statistical,garcia2007fluctuations,decristoforo2020intermittent,decristoforo2021numerical} and blob tracking methods in order to investigate filament properties \cite{nespoli2017blob,nespoli20193d,paruta2019blob,decristoforo2020blob}.
 \begin{figure}[t]
 	\centering
-	\includegraphics[width=10cm]{figures/decristoforo.eps}
+	\includegraphics[width=10cm]{figures/decristoforo-eps-converted-to}
 	\caption{Snapshot of plasma density of a two-dimensional turbulence simulation. Plasma is injected into the simulations domain at a constant rate and generates blob-like structures due to turbulence. Reprinted from \cite{decristoforo2020blob}, with the permission from AIP Publishing.}
 	\label{Fig:decristoforo}
 \end{figure}
