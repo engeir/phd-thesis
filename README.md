@@ -1,6 +1,12 @@
 # PhD-thesis "Global temperature response to volcanic activity"
 
+<sup>Latest version: v0.4.8</sup> <!-- x-release-please-version -->
+
+<!-- dprint-ignore-start -->
 > LaTeX code for my PhD thesis at UiT The Arctic University of Norway.
+>
+> [_View the generated PDF at the latest release!_](https://github.com/engeir/phd-thesis/releases/download/v0.4.8/main.pdf) <!-- x-release-please-version -->
+<!-- dprint-ignore-end -->
 
 The PDF is checked to work with both [tectonic] (recommended) and [latexmk]. The
 [tectonic] recipe depends only on [tectonic] itself as it is a self-contained binary.
@@ -32,14 +38,14 @@ just watch  # alias `w`
 The publications representing the main contribution of my PhD are not included due to
 licence restrictions. You can get access to the publications on the journal websites:
 
-Paper I: https://aip.scitation.org/doi/full/10.1063/5.0012017
+Paper I:
 
-Paper III: https://aip.scitation.org/doi/full/10.1063/5.0047566
+Paper III:
 
-Paper IV: https://aip.scitation.org/doi/full/10.1063/5.0021314
+Paper IV:
 
 If you use this code as a template for your own thesis at UiT, download the front page
-from the UiT webseite https://uit.no/phd-en.
+from the UiT website [https://uit.no/phd-en](https://uit.no/phd-en).
 
 Many thanks to Audun Theodorsen whose thesis was used as a starting point for this
 template.

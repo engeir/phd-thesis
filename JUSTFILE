@@ -5,14 +5,14 @@ alias c := clean-latexmk
 
 build:
   mkdir -p build
-  tectonic -o build main.tex
+  tectonic -o build src/main.tex
 
 watch:
-  latexmk -cd -pvc -pdf main.tex
+  latexmk -cd -pvc -pdf src/main.tex
 
 build-latexmk:
-  latexmk -pdf main.tex
-  latexmk -c
+  latexmk -cd -pdf src/main.tex
+  latexmk -c src/main.tex
 
-clean-latexmk: build-latexmk
-  latexmk -c
+clean-latexmk:
+  latexmk -cd -c src/main.tex
