@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.1](https://github.com/engeir/phd-thesis/compare/v0.1.0...v0.1.1) (2024-06-24)
+
+
+### Miscellaneous
+
+* clean up compiling steps and add quick msg in README ([61d19a9](https://github.com/engeir/phd-thesis/commit/61d19a99c757a52b4a326f22197b22180c40ee03))
+* push to remote ([a7dd897](https://github.com/engeir/phd-thesis/commit/a7dd8973fc72f54112924e3f7ceaf91718df2d0e))
+
 ## 0.1.0 (2024-01-08)
 
 
