@@ -1,11 +1,11 @@
 # PhD-thesis "Global temperature response to volcanic activity"
 
-<sup>Latest version: v0.1.0</sup> <!-- x-release-please-version -->
+<sup>Latest version: v0.1.1</sup> <!-- x-release-please-version -->
 
 <!-- dprint-ignore-start -->
 > LaTeX code for my PhD thesis at UiT The Arctic University of Norway.
 >
-> [_View the generated PDF at the latest release!_](https://github.com/engeir/phd-thesis/releases/download/v0.1.0/main.pdf) <!-- x-release-please-version -->
+> [_View the generated PDF at the latest release!_](https://github.com/engeir/phd-thesis/releases/download/v0.1.1/main.pdf) <!-- x-release-please-version -->
 <!-- dprint-ignore-end -->
 
 You should use
