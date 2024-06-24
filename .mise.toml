@@ -1,0 +1,12 @@
+[tools]
+tinytex = "latest"
+
+[tasks.build]
+description = "Build the project"
+run = [
+  "test -d ./build/ || mkdir -p ./build",
+  "tectonic -X compile ./src/main.tex --keep-logs --keep-intermediates -o ./build",
+]
+alias = ["b", "c", "compile"]
+sources = ["./papers/**", "./figures/**", "./src/*.tex", "./src/main.bib"]
+outputs = ["./build/**"]

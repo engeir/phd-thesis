@@ -8,6 +8,15 @@
 > [_View the generated PDF at the latest release!_](https://github.com/engeir/phd-thesis/releases/download/v0.1.0/main.pdf) <!-- x-release-please-version -->
 <!-- dprint-ignore-end -->
 
+You should use
+
+```bash
+mise run build
+```
+
+If you know what you are doing, there are some helpful but potentially outdated steps
+below.
+
 The PDF is checked to work with both [tectonic] (recommended) and [latexmk]. The
 [tectonic] recipe depends only on [tectonic] itself as it is a self-contained binary.
 The [latexmk] recipe depends on [latexmk], but you might also have to install other CTAN
