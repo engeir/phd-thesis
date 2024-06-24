@@ -36,7 +36,23 @@ the hydrogen isotopes Deuterium ${}_1^2\mathrm{D}$ and Tritium ${}_1^3\mathrm{T}
 \begin{equation}
   {}_1^2\mathrm{D} + {}_1^3\mathrm{T} \rightarrow {}_2^4\mathrm{He}\,(3.5 \textrm{MeV}) + {}_0^1\textrm{n} \,(14.1 \textrm{MeV}),
 \end{equation}
-is feasible with the prevailing technology. This reaction produces a helium particle ${}_2^4\mathrm{He}$ and a neutron ${}_0^1\textrm{n}$ together with $17 \,\textrm{MeV}$ of kinetic energy. This exothermic, single-step reaction has the largest fusion cross section at the lowest temperatures of all potential reactions. In addition, the low atomic number results in a lower electrostatic potential that must be overcome, making this the most promising candidate for fusion power plants. With one in 6420 hydrogen atoms in sea water, Deuterium can be considered abundant, while the radioactive Tritium must be obtained from breeding of the lithium isotope  ${}^6\mathrm{Li}$, which can be found in minerals from the Earth's crust. Due to the high temperature of approximately $10^8\, \mathrm{K}$ for $\mathrm{D}$-$\mathrm{T}$ fusion, no solid vessel could achieve steady-state confinement at these temperatures. The fuel would instantaneously lose its heat when colliding with the vessel walls. In order to achieve long enough energy confinement times, required for producing fusion power in a steady-state, a different approach has to be adopted. Since all hydrogen particles are fully ionized at these temperatures, i.e., in a plasma state, the particles can be confined with magnetic fields \cite{freidberg2008plasma}.
+%
+is feasible with the prevailing technology. This reaction produces a helium particle
+${}_2^4\mathrm{He}$ and a neutron ${}_0^1\textrm{n}$ together with $17 \,\textrm{MeV}$
+of kinetic energy. This exothermic, single-step reaction has the largest fusion cross
+section at the lowest temperatures of all potential reactions. In addition, the low
+atomic number results in a lower electrostatic potential that must be overcome, making
+this the most promising candidate for fusion power plants. With one in 6420 hydrogen
+atoms in sea water, Deuterium can be considered abundant, while the radioactive Tritium
+must be obtained from breeding of the lithium isotope ${}^6\mathrm{Li}$, which can be
+found in minerals from the Earth's crust. Due to the high temperature of approximately
+$10^8\, \mathrm{K}$ for $\mathrm{D}$-$\mathrm{T}$ fusion, no solid vessel could achieve
+steady-state confinement at these temperatures. The fuel would instantaneously lose its
+heat when colliding with the vessel walls. In order to achieve long enough energy
+confinement times, required for producing fusion power in a steady-state, a different
+approach has to be adopted. Since all hydrogen particles are fully ionized at these
+temperatures, i.e., in a plasma state, the particles can be confined with magnetic
+fields \cite{freidberg2008plasma}.
 
 \section{Magnetic confinement}
 
@@ -109,31 +125,76 @@ transport follows Fick's law
 \begin{equation}
   \Gamma_\perp = - D_\perp \frac{\partial n}{\partial r},
 \end{equation}
-where $\Gamma_\perp$ stands for the cross-field particle flux, $D_\perp$ is the diffusion coefficient estimated from the plasma parameters \cite{Bohm1949}, $n$ stands for the plasma density and $r$ for the radial/cross field dimension. This model, however, fails to account for experimental observations, requiring significantly higher diffusion coefficients than expected from classical or Bohm diffusion \cite{lipschultz2002investigation,krasheninnikov2008recent}. Experimental radial profiles in the SOL could only be reproduced by numerical simulations by assuming large cross field drifts or high effective diffusion coefficients $D_\perp^\textrm{eff}$, often referred to as \say{anomalous} diffusion \cite{wesson2011tokamaks}. It was expected that the SOL is dominated by strong flows parallel to the magnetic field, transporting most of the plasma to the divertor targets, resulting in exponential profiles with constant $D_\perp^\textrm{eff}$. These assumptions were refuted by experimental measurements such as presented for the TCV tokamak in \Figref{Fig:garcia_fluc}.
+%
+where $\Gamma_\perp$ stands for the cross-field particle flux, $D_\perp$ is the
+diffusion coefficient estimated from the plasma parameters \cite{Bohm1949}, $n$ stands
+for the plasma density and $r$ for the radial/cross field dimension. This model,
+however, fails to account for experimental observations, requiring significantly higher
+diffusion coefficients than expected from classical or Bohm diffusion
+\cite{lipschultz2002investigation,krasheninnikov2008recent}. Experimental radial
+profiles in the SOL could only be reproduced by numerical simulations by assuming large
+cross field drifts or high effective diffusion coefficients $D_\perp^\textrm{eff}$,
+often referred to as \say{anomalous} diffusion \cite{wesson2011tokamaks}. It was
+expected that the SOL is dominated by strong flows parallel to the magnetic field,
+transporting most of the plasma to the divertor targets, resulting in exponential
+profiles with constant $D_\perp^\textrm{eff}$. These assumptions were refuted by
+experimental measurements such as presented for the TCV tokamak in
+\Figref{Fig:garcia_fluc}.
 \begin{figure}[t]
   \centering
   \includegraphics[width=8cm]{../figures/garcia_fluc.png}
+
   \caption{Time-averaged, radial profile of the particle density normalized to the separatrix value in the TCV tokamak. The different colored symbols refer to different line-averaged core plasma densities with the black triangles referring to the lowest and the red triangles to the highest value. Reprinted from \cite{garcia2007fluctuations}, with permission from IAEA.}
   \label{Fig:garcia_fluc}
 \end{figure}
-Here, the variable $\rho$ stands for the distance to the separatrix and the dashed line indicates the beginning of the wall shadow, the region in which the magnetic field lines interact with the vessel walls. For the lowest line-averaged densities $\overline{n}$ a sharp decay in the density profile is observed close to the separatrix, with a much slower decay radially outwards. These regions are referred to as the near-SOL for the region of steep profiles and far-SOL, respectively \cite{labombard2001particle}. For increasing $\overline{n}$ the break point between these two regions moves radially inwards, resulting in a long decay length in the whole SOL, called broadening \cite{militello2016scrape}. This radial variation is also observed in other tokamak experiments such as Alcator C-Mod, MAST, NSTX, ASDEX, JET and DIII-D \cite{umansky1999modeling,rudakov2005far,militello2013experimental,boedo2014edge,carralero2014experimental,stangeby2000plasma,lipschultz2005comparison}, and in numerical simulations with SOL turbulence codes such as ESEL \cite{naulin2007turbulent}. For a purely diffusive transport this effect requires a significant radial increase of the effective diffusion coefficient as indicated in \Figref{Fig:labombard} for Alcator C-Mod plasmas, questioning the concept of purely diffusive transport.
+%
+Here, the variable $\rho$ stands for the distance to the separatrix and the dashed line
+indicates the beginning of the wall shadow, the region in which the magnetic field lines
+interact with the vessel walls. For the lowest line-averaged densities $\overline{n}$ a
+sharp decay in the density profile is observed close to the separatrix, with a much
+slower decay radially outwards. These regions are referred to as the near-SOL for the
+region of steep profiles and far-SOL, respectively \cite{labombard2001particle}. For
+increasing $\overline{n}$ the break point between these two regions moves radially
+inwards, resulting in a long decay length in the whole SOL, called broadening
+\cite{militello2016scrape}. This radial variation is also observed in other tokamak
+experiments such as Alcator C-Mod, MAST, NSTX, ASDEX, JET and DIII-D
+\cite{umansky1999modeling,rudakov2005far,militello2013experimental,boedo2014edge,carralero2014experimental,stangeby2000plasma,lipschultz2005comparison},
+and in numerical simulations with SOL turbulence codes such as ESEL
+\cite{naulin2007turbulent}. For a purely diffusive transport this effect requires a
+significant radial increase of the effective diffusion coefficient as indicated in
+\Figref{Fig:labombard} for Alcator C-Mod plasmas, questioning the concept of purely
+diffusive transport.
 \begin{figure}[t]
   \centering
   \includegraphics[width=8cm]{../figures/effective_diff.png}
-  \caption{Effective diffusivity profiles for different operational modes of the Alcator C-Mod experiment. The effective diffusion coefficient must vary by several orders of magnitude in order to match purely diffusive transport models. Reprinted from \cite{labombard2000cross}, with the permission of IAEA.}
+
+  \caption{Effective diffusivity profiles for different operational modes of the Alcator
+    C-Mod experiment. The effective diffusion coefficient must vary by several orders of
+    magnitude in order to match purely diffusive transport models. Reprinted from
+    \cite{labombard2000cross}, with the permission of IAEA.}
+
   \label{Fig:labombard}
 \end{figure}
-In the case of the DIII-D experiment, UEDGE transport simulations were unable to find any matching diffusion coefficient \cite{pigarov2002tokamak}. This motivates the introduction of an effective anomalous velocity $v_\perp^\textrm{eff}$ to the diffusion model,
+%
+In the case of the DIII-D experiment, UEDGE transport simulations were unable to find
+any matching diffusion coefficient \cite{pigarov2002tokamak}. This motivates the
+introduction of an effective anomalous velocity $v_\perp^\textrm{eff}$ to the diffusion
+model,
 \begin{equation}
   \Gamma_\perp = - D_\perp^\textrm{eff} \frac{\partial n}{\partial r} + v_\perp^\textrm{eff} n.
 \end{equation}
-For an advective-diffusive transport, however, the particle flux would follow a linear relationship with the inverse density scale length $\lambda_n$ \cite{garcia2007turbulent} as
+%
+For an advective-diffusive transport, however, the particle flux would follow a linear
+relationship with the inverse density scale length $\lambda_n$
+\cite{garcia2007turbulent} as
 \begin{equation}
   \frac{\Gamma_\perp}{n} =  v_\perp^\textrm{eff} - \frac{D_\perp^\textrm{eff}}{n} \frac{\partial n}{\partial r} = v_\perp^\textrm{eff} + \frac{D_\perp^\textrm{eff}}{\lambda_n}.
 \end{equation}
-In experimental measurements, such as for TCV shown in \Figref{Fig:garcia_flux}, no linear relationship can be found. Similar studies on the ﬂux–gradient relation in
-a simple ESEL interchange model of the SOL at
-constant temperatures, shown in \Figref{Fig:naulin},  draw an equivalent conclusion \cite{naulin2007turbulent}.
+%
+In experimental measurements, such as for TCV shown in \Figref{Fig:garcia_flux}, no
+linear relationship can be found. Similar studies on the ﬂux–gradient relation in a
+simple ESEL interchange model of the SOL at constant temperatures, shown in
+\Figref{Fig:naulin}, draw an equivalent conclusion \cite{naulin2007turbulent}.
 
 These findings clearly indicate that a different model is needed in order to describe
 turbulence and cross-field transport in the SOL adequately.
@@ -141,18 +202,21 @@ turbulence and cross-field transport in the SOL adequately.
   \centering
   \begin{minipage}{.48\linewidth}
     \includegraphics[width=\linewidth]{../figures/garcia_flux.png}
+
     \caption{The relationship between the normalized radial particle flux and the inverse density scale length for a range of TCV experiments. Reprinted from \cite{garcia2007turbulent}, with the permission from Elsevier.}
     \label{Fig:garcia_flux}
   \end{minipage}
   \hfill
   \begin{minipage}{.48\linewidth}
     \includegraphics[width=\linewidth]{../figures/naulin.png}
+    %
     \caption{The ﬂux–gradient relation in a simple ESEL interchange model of the SOL at constant temperatures. Reprinted from \cite{naulin2007turbulent}, with the permission from Elsevier.}
     \label{Fig:naulin}
   \end{minipage}
 \end{figure}
 
 \section{Intermittent fluctuations in the SOL}
+
 In the process of finding a better model describing plasma transport in the SOL of
 tokamak experiments, measurements of the relative fluctuation levels provide additional
 insight. Among the first experiments investigating this is the Caltech tokamak where

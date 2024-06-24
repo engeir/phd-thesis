@@ -16,9 +16,9 @@ packages, depending on what you already have.
 ```bash
 # Compile PDF with tectonic into a new directory "build"
 mkdir -p build
-tectonic -o build main.tex
+tectonic -o build src/main.tex
 # Compile PDF with latexmk
-latexmk -pdf main.tex
+latexmk -cd -pdf src/main.tex
 ```
 
 [just] is used to run commands to compile the PDF or to compile on save (run `just -l`
@@ -27,12 +27,12 @@ to see all available commands):
 ```bash
 # Tectonic
 just build  # alias `b`
+# Reload on save
+just watch  # alias `w`
 # Latexmk
 just build-latexmk  # alias `bl`
-# You can also build and clean using latexmk
-just clean-latexmk  # alias `c`
-# And you can start latexmk and make it recompile when you save the file
-just watch  # alias `w`
+# Reload on save
+just watch-latexmk  # alias `wl`
 ```
 
 The publications representing the main contribution of my PhD are not included due to

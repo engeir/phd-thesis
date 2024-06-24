@@ -309,3 +309,4 @@ TeX.gitignore
 
 # My additions
 build/
+src/main.pdf
